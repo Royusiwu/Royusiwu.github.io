@@ -1,37 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Tugas Web</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+
+ 
+
+    <link rel="stylesheet" href="main.css">
 </head>
+
 <body>
-    <header>
-        <h1>PERSONAL PAGE</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="pages/gallery.html">Gallery</a></li>
-                <li><a href="pages/blog.html">Blog</a></li>
-                <li><a href="pages/contact.html">Contact</a></li>
-            </ul>
-        </nav>
+
+    <header id="header" class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="index.html" class="nav__brand">
+                    <i class="ri-code-s-slash-line"></i>Royus
+                </a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#hero" class="nav__link">Home</a>
+                        </li>
+                 
+               
+                   
+                        <li class="nav__item">
+                            <a href="#blog" class="nav__link">Blog</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#galery" class="nav__link">Gallery</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav__toggle">
+                    <i id="nav-toggle" class="ri-menu-3-line"></i>
+                </div>
+            </nav>
+        </div>
     </header>
-    <main>
 
-        <h3>Hello</h3>
-        <h3>Welcome to my personal web page!</h3>
-        <img src="./images/profile.jpeg" alt="Foto Profil" style="width: 200px">
-        <p>Saya Royus Viber Siwu, biasa dipanggil Royus, lahir di Tarakan, Kalimantan Utara dan saat ini berusia 19 tahun. Saya adaah seorang mahasiswa Universitas Sam Ratulangi Manado Jurusan Teknik Informatika. Dalam keseharian saya, kegiatan olahragalah yang saya jadikan hobi, terkhususnya futsal ataupun sepak bola. Meski demikian, bidang musik juga merupakan salah satu hal yang saya gemari.</p>
+    <main class="main">
 
-        <h3>Portofolio:</h3>
-        <ul>
-            <li>Perwakilan Paduan Suara Gita Bahana Nusantara 2023 Provinsi Kalimantan Utara</li>
-            <li>Perwakilan Vocal Group Kalimantan Utara Pesparawi XII</li>
-            <li>Keanggotaan organisasi PSM UNSRAT</li>
-        </ul>
-        <h3>Contact Me</h3>
-        <p><a href="https://www.instagram.com/royusiwu">More</a></p>
-    </main>
+        <section id="hero" class="hero">
+            <div class="container">
+                <div class="d-grid hero__wrapper">
+                    <div class="hero__content">
+                        <h1 class="hero__title" style="color: black;">Hi, I am Royus Viber Siwu</h1>
+                        <p class="hero__description">Saya Royus Viber Siwu, biasa dipanggil Royus, lahir di Tarakan, Kalimantan Utara dan saat ini berusia 19 tahun. Saya
+                        adaah seorang mahasiswa Universitas Sam Ratulangi Manado Jurusan Teknik Informatika. Dalam keseharian saya, kegiatan
+                        olahragalah yang saya jadikan hobi, terkhususnya futsal ataupun sepak bola. Meski demikian, bidang musik juga merupakan
+                        salah satu hal yang saya gemari.</p>
+                        
+                    </div>
+          
+                </div>
+            </div>
+        </section>
+
+  
+   
+        <section id="blog" class="section project">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title" style="color: black;">Artikel</h2>
+                  
+                </div>
+                <div class="d-grid project__wrapper">
+
+                    <div class="project__content">
+                        <img src="images/Tarakan.jpeg" alt="Agency Website" class="project__img">
+                        <h3 class="project__title" style="color:black;"">Pesona Tarakan, Kota di Ujung Utara Borneo</h3>
+                        <p class="project__description"> Tarakan merupakan satu-satunya kota yang berada di ujung utara Pulau Kalimantan tepatnya di Wilayah Provinsi Kalimantan
+                        Utara...</p>
+                        <a href="#" class="project__link" style="color:#25ab75;">Selengkapnya
+                            <i class="ri-arrow-right-line"></i></a>
+                    </div>
+                    <div class="project__content">
+                        <img src="images/pict.png" alt="Agency Website" class="project__img">
+                        <h3 class="project__title" style="color:black;"">Jokowi: Indonesia Harus Mampu Ciptakan Teknologi Canggih</h3>
+                                            <p class=" project__description"> Presiden Joko Widodo mengungkapkan Indonesia selama ini hanya bisa menerima tekonologi-teknologi canggih dari berbagai
+                                            negara maju, padahal Indonesia berpotensi menciptakan sebuah teknologi tersebut...
+                            Utara...</p>
+                            <a href="#" class="project__link" style="color:#25ab75;">Selengkapnya
+                                <i class="ri-arrow-right-line"></i></a>
+                    </div>
+<div class="project__content">
+    <img src="images/Artikel1.jpeg" alt="Agency Website" class="project__img">
+    <h3 class="project__title" style="color:black;"">Menyelami Keindahan Alam dan Kebudayaan Tersembunyi di Desa Sidemen</h3>
+                                            <p class=" project__description"> Desa Sidemen, sebuah permata tersembunyi di pegunungan timur Bali, menghadirkan pengalaman yang menenangkan dan
+                                            keindahan alam yang tiada tanding. Terletak di bawah..
+        Utara...</p>
+        <a href="#" class="project__link" style="color:#25ab75;">Selengkapnya
+            <i class="ri-arrow-right-line"></i></a>
+</div>
+               
+                </div>
+            </div>
+        </section>
+        <section id="galery" class="section project">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title" style="color: black;">Gallery</h2>
+                  
+                </div>
+                <div class="d-grid project__wrapper">
+          
+                    <div class="project__content">
+                        <img src="images/photo 1.jpeg" alt="Agency Website" class="project__img">
+                        
+                    </div>
+ 
+                    <div class="project__content">
+                        <img src="images/photo 2.jpeg" alt="Crypto Application " class="project__img">
+                      
+                    </div>
+                    <div class="project__content">
+                        <img src="images/photo 3.jpeg" alt="Crypto Application " class="project__img">
+                    
+                    </div>
+                    <div class="project__content">
+                        <img src="images/photo 4.jpeg" alt="Crypto Application " class="project__img">
+                    
+                    </div>
+                    <div class="project__content">
+                        <img src="images/photo 5.jpeg" alt="Crypto Application " class="project__img">
+                    
+                    </div>
+                    <div class="project__content">
+                        <img src="images/photo 6.jpeg" alt="Crypto Application " class="project__img">
+                    
+                    </div>
+                    
+                    </div>
+                </div>
+            </div>
+        </section>
+
+      
+
+     
+ 
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="d-grid footer__wrapper">
+              
+                <div class="footer__content">
+                    <h4 class="footer__title">Email Me</h4>
+                    <a href="#" class="footer__contact">royussiwu00@gmail.com</a>
+                </div>
+                <div class="footer__content">
+                    <h4 class="footer__title">Call Me</h4>
+                    <a href="#" class="footer__contact">+62 852-1121-4424</a>
+                </div>
+            </div>
+            <p class="footer__copyright">&copy; Royus Viber Siwu</p>
+        </div>
+    </footer>
+    <script src="javascript.js"></script>
 </body>
+
 </html>
